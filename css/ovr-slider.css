@@ -9,7 +9,7 @@
 */
 
 body {
-    background:#442234;
+    background:#008fd9;
     color: white;
     font-family: 'Raleway', sans-serif;
     -webkit-font-smoothing:antialiased;
@@ -60,7 +60,7 @@ section a.arrows, .frame {
 
 section .arrows {
     margin: 0px 20px;
-    background: #12050c;
+    background: #046da4;
     border-radius: 50%;
     padding: 20px;
     width: 20px;
@@ -71,7 +71,7 @@ section .arrows {
 
     section .arrows:hover {
         margin: 0px 10px;
-        background: #12050c;
+        background: #023954;
         border-radius: 50%;
         padding: 20px;
         width: 20px;
@@ -146,7 +146,7 @@ footer a {
     margin: 0px 10px;
     line-height: 65px;
     font-size: 0.95em;
-    color: #12050c;
+    color: #046da4;
 }
 
 footer img {
