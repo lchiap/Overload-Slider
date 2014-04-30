@@ -53,12 +53,10 @@ section{
     position: relative;
 }
 
-section a.arrows, .frame {
-    display: inline-block;
-    vertical-align: middle;
-}
+/* Arrows */
 
-section .arrows {
+
+.arrows {
     margin: 0px 20px;
     background: #046da4;
     border-radius: 50%;
@@ -67,9 +65,10 @@ section .arrows {
     height: 20px;
     position: absolute;
     vertical-align: middle;
+    display: none;
 }
 
-    section .arrows:hover {
+    .arrows:hover {
         margin: 0px 10px;
         background: #023954;
         border-radius: 50%;
@@ -80,23 +79,28 @@ section .arrows {
         vertical-align: middle;
     }
 
-section .arrow-left{
+.arrow-left{
     top: 42%;
-    left: -44px;
+    left: 4px;
     z-index: 99999;
 }
 
-section .arrow-right{
+.arrow-right{
     top: 42%;
-    right: -44px;
+    right: 4px;
     z-index: 99999;
 }
 
-section .arrows img{
+.arrows img{
     width: 20px;
 }
 
-.frame {
+#ovr-slider:hover > .arrows {
+    display: block;
+}
+
+/* Slider box */
+#ovr-slider {
     display: block;
     border: 10px solid white;
     box-shadow: 0px 0px 25px 5px rgba(0, 0, 0, 0.3);
@@ -106,13 +110,12 @@ section .arrows img{
     height: 400px;
 }
 
-.frame ul{
+#ovr-slider ul{
     margin: 0;
     padding: 0;
-    width: 3000px;
 }
 
-.frame ul li{
+#ovr-slider ul li{
     float: left;
     margin: 0;
     padding: 0;
@@ -120,7 +123,7 @@ section .arrows img{
 
 }
 
-.frame ul li img{
+#ovr-slider ul li img{
     margin: auto;
 
 }

@@ -1,4 +1,4 @@
-# Overload Simple Lightbox
+# Overload Slider
 
 Hey friends, we share with you our super simple lightbox. We always need a simple to use lightbox in our projects, so we want to make this contribution, you will be able to download and deploy it in a very simple way. Enjoy it!
 
