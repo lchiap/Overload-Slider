@@ -1,0 +1,167 @@
+/*
+*
+* Overload Lightbox v1.1
+* Copyright 2014, Luis Chiappe - Overload - Web & Graphic design -
+* Overloadesign.com | luischiappe.com.ar
+* Free to use for web designers and web developers.
+* Enjoy!
+*
+*/
+
+body {
+    background:#442234;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    -webkit-font-smoothing:antialiased;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 5px 0px;
+    padding: 0;
+}
+
+a {
+    -webkit-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	-ms-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+
+/* CONTENT */
+.container {
+    max-width: 980px;
+    margin: auto;
+}
+
+/* SLIDER */
+
+section{
+    width: 828px;
+    margin: 60px auto;
+    position: relative;
+}
+
+section a.arrows, .frame {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+section .arrows {
+    margin: 0px 20px;
+    background: #12050c;
+    border-radius: 50%;
+    padding: 20px;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    vertical-align: middle;
+}
+
+    section .arrows:hover {
+        margin: 0px 10px;
+        background: #12050c;
+        border-radius: 50%;
+        padding: 20px;
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        vertical-align: middle;
+    }
+
+section .arrow-left{
+    top: 42%;
+    left: -44px;
+    z-index: 99999;
+}
+
+section .arrow-right{
+    top: 42%;
+    right: -44px;
+    z-index: 99999;
+}
+
+section .arrows img{
+    width: 20px;
+}
+
+.frame {
+    display: block;
+    border: 10px solid white;
+    box-shadow: 0px 0px 25px 5px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    position: relative;
+    margin: auto;
+    height: 400px;
+}
+
+.frame ul{
+    margin: 0;
+    padding: 0;
+    width: 3000px;
+}
+
+.frame ul li{
+    float: left;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+
+.frame ul li img{
+    margin: auto;
+
+}
+
+/* FOOTER */
+footer {
+    height: 100px;
+    padding: 10px;
+    width: 362px;
+    clear: both;
+    margin: auto;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+footer a {
+    display: block;
+    float: left;
+    text-decoration: none;
+    color: white;
+    margin: 0px 10px;
+    line-height: 65px;
+    font-size: 0.95em;
+    color: #12050c;
+}
+
+footer img {
+    display: block;
+    float: left;
+    text-decoration: none;
+    color: white;
+    margin: 0px 5px 0px 0px;
+}
+
+footer a:hover {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+}
+
+
