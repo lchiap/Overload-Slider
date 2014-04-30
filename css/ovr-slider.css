@@ -16,14 +16,14 @@ body {
     padding: 20px;
 }
 
-h1 {
+h1, h2 {
     text-align: center;
     margin: 0;
     padding: 0;
 }
 
 p {
-    margin: 5px 0px;
+    margin: 15px 0px;
     padding: 0;
 }
 
