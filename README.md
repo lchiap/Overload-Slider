@@ -14,32 +14,16 @@ Hey friends, we share with you our super simple lightbox. We always need a simpl
 
 #### First you need to link the stylesheet and js (remember add the Jquery library)
 ```
-<link rel="stylesheet" type="text/css" href="css/ovr-lightbox.css">
+<link rel="stylesheet" type="text/css" href="css/ovr-slider.css">
 <link rel="stylesheet" type="text/css" href="css/normalize.css">
-<script src="js/ovr-lightbox.js"></script>
+<script src="js/ovr-slider.js"></script>
 ```
 
 #### Structuring your layouts. Example:
 ```
-<!-- BTN Open -->
-<a class="open" href="#">Open Lightbox</a>
 
-<!-- BG Black -->
-<div class="bg"></div>
-
-<!-- Lightbox -->
-<div class="ovr-lightbox">
-    <div class="close"><img src="img/close.png" alt=""></div>
-    <header>
-        <h1>Header text</h1>
-    </header>
-    <section>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, voluptate, quaerat, earum ipsam animi laborum a inventore consectetur ea dolore obcaecati rerum repudiandae iste repellat maxime iusto molestiae consequatur nostrum.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, voluptate, quaerat, earum ipsam animi laborum a inventore consectetur ea dolore obcaecati rerum repudiandae iste repellat maxime iusto molestiae consequatur nostrum.</p>
-    </section>
-</div>
 ```
-You can cutomize this lightbox as you like. The idea of this asset is that you can use a really simple lightbox.
+You can use the size of images that you want, the slider always working, doesn't metter what size has the images. 
 
 ### Support
 If you have any questions or you can help us improve this grid please contact me, we will gladly answer.:
