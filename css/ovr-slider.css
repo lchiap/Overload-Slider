@@ -47,15 +47,12 @@ a {
 }
 
 /* SLIDER */
-
 section{
     margin: 60px auto;
     position: relative;
 }
 
 /* Arrows */
-
-
 .arrows {
     margin: 0px 20px;
     background: #046da4;
