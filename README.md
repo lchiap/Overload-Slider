@@ -19,8 +19,26 @@ Hey friends, we share with you our super simple lightbox. We always need a simpl
 <script src="js/ovr-slider.js"></script>
 ```
 
-#### Structuring your layouts. Example:
+#### Structuring your slider. Example:
 ```
+<div id="ovr-slider">
+                    
+    <a class="arrows arrow-left" href="#">
+        <img src="img/arrow-left.png" alt="">
+    </a>
+
+    <ul>
+        <li><img src="img/slider1.png" alt=""></li>
+        <li><img src="img/slider1.png" alt=""></li>
+        <li><img src="img/slider1.png" alt=""></li>
+        <li><img src="img/slider1.png" alt=""></li>
+    </ul>
+
+    <a class="arrows arrow-right" href="#">
+        <img src="img/arrow-right.png" alt="">
+    </a>
+
+</div>
 
 ```
 You can use the size of images that you want, the slider always working, doesn't metter what size has the images. 
