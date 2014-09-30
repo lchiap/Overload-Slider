@@ -25,21 +25,36 @@ $(document).ready(function(){
     $('.arrow-right').click(function(e){
         e.preventDefault();
 		margin = margin - slideW;
+        
+        
         $('#ovr-slider ul').animate({
             marginLeft: margin,
         }, function() {
             iterador++
         });
+        
+        if(margin >= slideW*slides){
+            $('#ovr-slider ul').animate({
+                marginLeft: 0,
+                }, function() {
+                iterador++
+            });
+        }
+        
     });
         
     $('.arrow-left').click(function(e){
         e.preventDefault();
+        
 		margin = margin + slideW;
+        
         $('#ovr-slider ul').animate({
             marginLeft: margin,
         }, function() {
             iterador--
         });
+        
+        
     });
     
    
